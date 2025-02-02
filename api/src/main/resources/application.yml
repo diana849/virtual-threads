@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api
+  threads:
+    virtual:
+      enabled: true
+
+client:
+  url: http://localhost:8085
+server:
+  tomcat:
+    threads:
+      max: 10
